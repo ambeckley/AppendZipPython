@@ -7,7 +7,7 @@
 import os
 import io
 
-filename = "imessage22.jpg"
+filename = "FileWithZip.jpg"
 fio = io.open(filename, "rb")
 filecontent = fio.read()
 fio.close()
