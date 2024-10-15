@@ -9,7 +9,7 @@ import io
 
 
 
-zfile = "nasb.zip"
+zfile = "zipfile.zip"
 zipfile = io.open(zfile, "rb")
 zipcontent = zipfile.read()
 zipfile.close()
@@ -18,7 +18,7 @@ zipfile.close()
 
 #For jpegs cause uses jpeg file end
 
-filename = "test copy.jpg"
+filename = "jpgToPutZipIn.jpg"
 fio = io.open(filename, "rb")
 removeEOF = fio.read()[:-1]
 fio.close()
